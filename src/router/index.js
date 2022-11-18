@@ -24,9 +24,10 @@ import Layout from '../views/admin/layout/Layout'
 export const constantRouterMap = [
   { path: '/404', component: () => import('@/views/404'), hidden: true },
   { path: '', component: () => import('@/views/home/index'), hidden: true },
+  { path: '', component: () => import('@/views/home/index'), hidden: true },
   { path: '/legal', component: () => import('@/views/legal/legal'), hidden: true },
   { path: '/privacy', component: () => import('@/views/legal/privacy'), hidden: true },
-  { path: '/cookie', component: () => import('@/views/legal/cookie'), hidden: true },
+  { path: '/mynewpage', component: () => import('@/views/mynewpage/cookie'), hidden: true },
 ]
 
 export default new Router({
